@@ -32,7 +32,8 @@ git commit -m "Comments"
 git push origin
 Загрузите изменения в удаленный репозиторий (не обязательно origin)
 
-
+git clean -fdx
+удаляет всё, что незакоммители и возвращает последний комимт
 
 
 git checkout .
