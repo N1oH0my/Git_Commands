@@ -19,6 +19,36 @@ git config --global --replace-all user.name your-name
 Смена пользователя
 
 ```powershell
+ssh-keygen -t rsa -b 4096 -C EMAIL
+
+Generating public/private rsa key pair.
+Enter file in which to save the key (C:\Users\N1o/.ssh/id_rsa):
+Created directory 'C:\Users\N1o/.ssh'.
+
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+
+Your identification has been saved in C:\Users\N1o/.ssh/id_rsa.
+Your public key has been saved in C:\Users\N1o/.ssh/id_rsa.pub.
+
+The key fingerprint is:
+_ email
+The key's randomart image is:
++---[RSA 4096]----+
+|                O|
+|           .   o.|
+|          . o o o|
+|           + B +.|
+|        S = B B +|
+|         + X O B |
+|          = E B .|
+|           B B.o.|
+|          o.+.+=.|
++----[SHA256]-----+
+```
+Генерация ssh
+
+```powershell
 git status
 ```
 Проверьте статус изменений
